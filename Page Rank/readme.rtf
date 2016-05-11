@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red29\green38\blue42;}
+\margl1440\margr1440\vieww11900\viewh8760\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Help Document:\
+\
+Steps to run the program with Mac/Windows Machine:\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+1.Copy the project in any of the drives . Open the project in Eclipse . Right click on the project , click \'93Build Path\'94 -> \'93Configure Build Path\'94 -> \'93Java Build Path\'94 on the left menu -> \'93Libraries\'94 tab in Center menu -> \'93Add External JARs \'94 -> Select the path of \'93jsoup-1.8.3.jar\'94 provided in the project zip folder -> \'93OK\'94 .\
+\
+2.Run the program as below. \
+  1. right click on PageRank.java and \'93run as java application\'94\
+  2. Documents can be changed using the scanner , I have left it uncommented, so the program will\
+      run with the latest text file \
+  3. Perplexities are displayed using Sysout which have also been added to separate text files\
+\
+ALL FILES\
+  4. UnfocusedCrawl.java is the first part , the inlinks are available in the InLinks_WG1.txt(directedWeb graph part of the assignment)\
+\
+   5. The WG1.txt file contains the web directed graph links with their ranks where d = 0.85\
+   6. The WG2.txt file contains the wt2g_inlinks.txt links with their ranks where d = 0.85\
+   7. The WG1-0.95.txt file contains the web directed graph links with their ranks where d = 0.95\
+   8. The WG2-0.95.txt file contains the wt2g_inlinks.txt links with their ranks where d = 0.95\
+\
+    9. \'91perplexity for WG1.txt\'92 contains perplexities for WG1\
+    10. \'91perplexityforWG2\'92 contains perplexities for WG2\
+    11. inlinks.txt is the given inlinks from the assignment question\
+    12. inlinkstest.txt is the test file given from the assignment question\
+    13. top50inlinksrank.txt is the top 50 inlink ranks for WG2\
+    14. \'91top5 comparison for all ranks.txt\'92 is the comparison between all ranks\
+    15. LOG-LOG Graphs for the datasets WG1 and WG2 in excel file \
+           The first graph follows the power law distribution and also the second graph follows the power law \
+           distribution. With increase in Y axis there is a exponential decrease in X axis. (Note: The graph has been reversed on the table)\
+     16. WG1.txt contains the sorted pages with ranks for WG1\
+      17. WG2.txt contains the sorted pages with ranks for WG2\
+  \
+Proportion is  36.27%  for WG1(no links)  and 7.80% (no unlinks) for WG2\
+\
+KENDAL TAU FOR WG1 AND WG2\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf2 \expnd0\expndtw0\kerning0
+TASK 9:   \uc0\u8234 WG1 inlinks vs pagerank: 0.920058557768\uc0\u8236 \
+TASK 10: \uc0\u8234 WG2 inlinks vs pagerank: 0.968189643083
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \uc0\u8236 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+FOR EACH TEXT FILE for running the program,\
+PLEASE MAKE SURE TO HAVE THE CORRECT ROOT PATH INCASE THE GIVEN PATH IN THE CODE IS \
+INCORRECT.\
+}

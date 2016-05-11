@@ -1,0 +1,46 @@
+perplexity in each round 1.0
+perplexity in each round 1.0
+perplexity in each round 1.0
+perplexity in each round 5.771114826202393
+perplexity in each round 5.733686447143555
+perplexity in each round 5.842186450958252
+perplexity in each round 5.819459915161133
+
+total no of pages 6
+
+no.of sink nodes 0
+
+no.of no inlinks 0
+
+converged 5
+
+perplexity 5.819459915161133
+
+no of pages with page rank less than initial 4
+
+proportion of no outlinks 0.0
+
+proportion of no inlinks 0.0
+
+proportion of pages with page rank less than initial value 0.6666666666666666
+----------------------------------
+Printing the sorted list according to page rank(top 50)
+A = 0.25563815
+2
+E = 0.1863217
+3
+C = 0.15096211
+4
+B = 0.13813737
+5
+D = 0.117978565
+6
+---------------------------------------
+Printing the sorted list according to inlink count(top 50) 
+E = 4
+1
+A = 3
+2
+B = 2
+3
+printing all pages according to their page ranks

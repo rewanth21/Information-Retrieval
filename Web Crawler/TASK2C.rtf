@@ -1,0 +1,19 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 TASK2C\
+\
+Depth first search goes to a depth of 5, gets the urls in that depth from the link and searches for the word and then stores to an output, goes back to depth 4 and then does the same thing again till the number of pages added to the list reaches a maximum of 1000\
+\
+Breadth first search gets all the links from the seed url finds the keyword and saves the link in an output and puts the link in visited list.  The links are added to the queue. Then the first url in the list performs the same, where the links are added to the end of the queue , find the word if available , adds it to the output list and pages visited list  and increments the number of pages if it is or else it adds link to pages visited. The first link from the queue is removed at each loop. This is done until queue is empty or the pages output reaches 1000.\
+\
+\
+\
+For DFS , it goes to a depth of 5 , based on the text file, the search goes till the fifth link and \
+then expands to other links in the 5th url. The 6th link in the 5th url in the text file is part of the 5th url and this shows that the program runs on a depth first search algorithm.(based on the top 5 links)\
+\
+\
+For BFS the program gets all links from the first url adds them to the queue and then moves on to the second url in the queue and repeats as above based on the top 5 links }
